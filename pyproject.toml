@@ -2,8 +2,8 @@
 requires = ["setuptools>=67.0"]
 build-backend = "setuptools.build_meta"
 [project]
-name = "package-name"
-version = "0.0.5"
+name = "fabula-ex-machina"
+version = "0.0.6"
 authors = [
     {name="Machina Ratiocinatrix", email="machina.ratio@gmail.com"},
     {name="Alexander Fedotov", email="alex.fedotov@aol.com"}
@@ -17,11 +17,11 @@ classifiers=[
         "Operating System :: OS Independent",
 ]
 
-keywords = ["package-name"]
+keywords = ["fabula-ex-machina"]
 
 
 [project.scripts]
-package-name = "package_name.cli:run"
+fabula-ex-machina = "fabula_ex_machina.cli:run"
 
 [project.urls]
 "Homepage" = "https://github.com/fabula-ex-machina/fabula-ex-machina"
