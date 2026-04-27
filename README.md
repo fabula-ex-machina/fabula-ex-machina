@@ -1,10 +1,9 @@
-# Package name
-Package Name
+# Fabula ex Machina
 <pre>
-  pip install package-name
+  pip install fabula-ex-machina
 </pre>
 Then:
 ```Python
   # Python
-  import package_name
+  import fabula_ex_machina as machina
 ```
